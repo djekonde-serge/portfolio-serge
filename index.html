@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <head>
+    <title>SERGE.</title>
+</head><link rel="icon" href="images/Logoo-re.png">
+    <script
+      src="https://kit.fontawesome.com/a5708e51aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Logoo-re.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+
+       <div class="header-text">
+          <p>Ingénieur Réseaux & Support IT</p>
+          <h1>Je suis <span>DJEKONDE</span> <br />SERGE</h1>
+          <p class="header-sub">Je supervise, sécurise et dépanne vos réseaux depuis Ouagadougou, Burkina Faso.</p>
+          <a href="#contact" class="btn btn2 header-btn">Me contacter</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------about-------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/work-4.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+  Network Engineer |  IT Support Specialist passionné par la cybersécurité et le support IT. 
+  J’ai développé des compétences solides dans la gestion des 
+  infrastructures réseau, le dépannage des systèmes, ainsi que la supervision 
+  des services informatiques.  
+  J’utilise des outils comme THE DUDE et Zabbix et sershark pour analyser, surveiller et 
+  optimiser les performances des réseaux. Mon objectif est d’assurer la stabilité, 
+  la sécurité et la disponibilité des systèmes informatiques.
+</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+  <span>Réseaux & Systèmes</span><br />
+  Administration et configuration des infrastructures réseau
+</li>
+
+<li>
+  <span>Support IT</span><br />
+  Assistance technique et résolution d’incidents utilisateurs
+</li>
+
+<li>
+  <span>Cybersécurité</span><br />
+  Protection des systèmes et analyse des menaces
+</li>
+  <li><span>2026</span><br />MBA from MIT Bangalore.</li>
+                <li><span>2020</span><br />BBA from ISM Bangalore.</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+      <span>2025 - Présent</span><br />
+      Administrateur réseau & support IT (projets académiques et pratiques)
+    </li>
+    <li>
+      <span>2024 - 2025</span><br />
+      Projets de supervision réseau avec THE DUDE et Zabbix et analyse sershark
+    </li>
+                <li>
+                  <span>2016 - 2017</span><br />Internship at ekart eCommerce.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                 <li>
+      <span>2025 - Présent</span><br />
+      Master en Cybersécurité (M1)
+    </li>
+    <li>
+      <span>2024</span><br />
+      Licence en Technologie des Réseaux et Systèmes Informatiques
+    </li>
+    <li>
+      <span>2020</span><br />
+      Baccalauréat scientifique
+    </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- --------------services------------- -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">Mes Services</h1>
+    <div class="services-list">
+      
+      <div>
+        <i class="fa-solid fa-network-wired"></i>
+        <h2>Administration Réseau</h2>
+        <p>
+          Mise en place, configuration et gestion des infrastructures réseau.
+          Surveillance des performances, optimisation du trafic et sécurisation
+          des communications pour garantir une disponibilité maximale des services.
+        </p>
+        <a href="#">En savoir plus</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-headset"></i>
+        <h2>Support IT</h2>
+        <p>
+           Network Engineer |  IT Support Specialist passionné par les réseaux et la cybersécurité, avec une 
+          solide expérience en supervision, maintenance et dépannage des infrastructures 
+          informatiques. Utilisation d’outils comme The DUDE et Zabbix et sershark pour analyser 
+          et résoudre efficacement les incidents tout en assurant un support utilisateur 
+          de qualité.
+        </p>
+        <a href="#">En savoir plus</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-shield-halved"></i>
+        <h2>Cybersécurité</h2>
+        <p>
+          Mise en œuvre de solutions de sécurité pour protéger les systèmes et les données.
+          Analyse des vulnérabilités, surveillance des menaces et renforcement des politiques
+          de sécurité afin de garantir l’intégrité et la confidentialité des informations.
+        </p>
+        <a href="#">En savoir plus</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- --------------portfolio------------- -->
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">Mes Projets</h1>
+    <div class="work-list">
+
+      <div class="work">
+        <img src="images/user11.JPG" />
+        <div class="layer">
+          <h3>Supervision Réseau avec The DUDE et Zabbix</h3>
+          <p>
+            Mise en place d’un système de monitoring pour surveiller les équipements
+            réseau en temps réel et détecter les anomalies.
+          </p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-5.png" />
+        <div class="layer">
+          <h3>Analyse de trafic avec Sershark</h3>
+          <p>
+            Analyse approfondie des paquets réseau pour diagnostiquer les problèmes
+            de performance et renforcer la sécurité.
+          </p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-3.png" />
+        <div class="layer">
+          <h3>Application de gestion des tâches (ZIND NAABA)</h3>
+          <p>
+            Développement d’une application web pour la gestion et le suivi des tâches
+            du personnel dans un environnement hôtelier.
+          </p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#" class="btn">Voir plus</a>
+  </div>
+</div>
+
+    <!-- --------------contact------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> djekondes@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> +22657528972</p>
+            <div class="social-icons">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+  <a href="https://www.linkedin.com/in/serge-djekonde-4a3952265/" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+</div>
+
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© 2026 Serge Djekonde. Tous droits réservés.</p>
+      </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+  </body>
+</html>
